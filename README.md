@@ -51,7 +51,7 @@ This produced a dataset of 167,270 rows, with one skill per row.
 - Grouped the data by skill.
 - Counted how many times each skill appeared.
 - Sorted the results in descending order and selected the top 10 skills.
-
+![Grouping data by skills](screenshots/power_query_group_by.png)
 ## Skills Analysis
 
 I also created a PivotTable and a horizontal bar chart in Excel using the expanded skills dataset.
@@ -59,21 +59,7 @@ I also created a PivotTable and a horizontal bar chart in Excel using the expand
 The PivotTable summarises the frequency of each skill. Its results were compared with the Power Query aggregation to check that both approaches produced matching counts.
 
 ### Top 10 Most Frequently Mentioned Skills
-
-| Skill | Job Postings |
-|---|---:|
-| SQL | 18,500 |
-| Python | 17,689 |
-| Tableau | 7,043 |
-| R | 6,929 |
-| AWS | 6,844 |
-| Excel | 6,260 |
-| Spark | 5,290 |
-| SAS | 4,806 |
-| Azure | 4,760 |
-| Java | 3,827 |
-
-*Note: These figures represent skill occurrences across job postings, not the number of unique candidates or people with those skills.*
+![Job skills analysis](screenshots/skills_analysis.png)
 
 ## Key Findings
 
