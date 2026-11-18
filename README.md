@@ -86,5 +86,5 @@ Through this project, I practised:
 
 ## Project Files
 
-- `Excel_Job_Market_Analysis.xlsx` – Excel workbook containing the prepared datasets, Power Query results, PivotTable and chart.
+- `Power_Query_Data_Jobs_Market_Analysis.xlsx` – Excel workbook containing the prepared datasets, Power Query results, PivotTable and chart.
 - `screenshots/` – screenshots showing selected data preparation and analysis steps.
