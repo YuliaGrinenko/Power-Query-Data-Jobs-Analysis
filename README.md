@@ -1,4 +1,4 @@
-# Power Query Data Jobs Analy
+# Power Query Data Jobs Analysis
 
 ## Project Overview
 
