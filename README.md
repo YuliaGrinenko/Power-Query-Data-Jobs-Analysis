@@ -34,6 +34,7 @@ I used Power Query to prepare the data and create three queries:
 - Added a sequential `job_id` to identify individual job postings.
 
 The resulting table contains 32,672 job postings and 17 columns.
+![Data set in editor](screenshots/power_query_editor.png)
 ![Cleaned dataset](screenshots/cleaned_dataset.png)
 
 ### 2. `data_skills` – Expanded skills dataset
@@ -42,7 +43,7 @@ The resulting table contains 32,672 job postings and 17 columns.
 - Cleaned the skills column by removing unnecessary characters and spaces.
 - Split the skills into individual values.
 - Expanded the resulting values into separate rows, keeping each skill linked to its original job posting.
-
+![Skills table](screenshots/skills_editor.png)
 This produced a dataset of 167,270 rows, with one skill per row.
 
 ### 3. `data_skill_count` – Skills aggregation
@@ -51,7 +52,10 @@ This produced a dataset of 167,270 rows, with one skill per row.
 - Grouped the data by skill.
 - Counted how many times each skill appeared.
 - Sorted the results in descending order and selected the top 10 skills.
+  
 ![Grouping data by skills](screenshots/power_query_group_by.png)
+![Skills count table](screenshots/skills_count.png)
+
 ## Skills Analysis
 
 I also created a PivotTable and a horizontal bar chart in Excel using the expanded skills dataset.
