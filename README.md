@@ -34,6 +34,7 @@ I used Power Query to prepare the data and create three queries:
 - Added a sequential `job_id` to identify individual job postings.
 
 The resulting table contains 32,672 job postings and 17 columns.
+![Cleaned dataset](screenshots/cleaned_dataset.png)
 
 ### 2. `data_skills` – Expanded skills dataset
 
