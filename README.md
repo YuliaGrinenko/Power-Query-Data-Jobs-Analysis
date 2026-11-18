@@ -1,5 +1,4 @@
 # Excel-Job-Market-Analysis
-# Excel Job Market Analysis
 
 ## Project Overview
 
